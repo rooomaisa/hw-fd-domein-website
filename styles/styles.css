@@ -61,7 +61,7 @@ Table of Contents:
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     text-align: center;
-    margin-right: auto;
+    /*margin-right: auto;*/
         /*padding: 75px 25px;*/
 }
 .header-section h1 {
@@ -79,7 +79,7 @@ Table of Contents:
 }
 .button-links{
     font-size: 18px;
-    font-color: darkslategray;
+    color: darkslategray;
     padding: 20px 40px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -102,9 +102,10 @@ Table of Contents:
 }
 /*///////////// 3.2 Testimonial /////////////*/
 
-class.lay-out-main{
+.lay-out-main{
     max-width: 1000px;
-    margin: 5px auto;
+    text-align: center;
+    margin: 5px;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -118,40 +119,62 @@ class.lay-out-main{
 .klanten-box{
     padding: 20px 150px 20px 150px;
     box-sizing: border-box;
-    margin: 50px;
-    box-shadow: black;
+    /*margin: 50px;*/
+    /*box-shadow:black;*/
 
 
 }
-.lay-out-main p {
-    }
 
 /*///////////// 3.3 Support /////////////*/
 
-.callcenter-image{
+.callcenter-image {
     max-width: 100%;
-    max-height: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-left: 250px;
+    padding: 20px
+}
+
+.team-tekst {
+    padding: 20px;
+}
+
 
 .button-klant{
     color: white;
     font-size: 18px;
     background-color:#1C2B32;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     border-color: black;
     padding: 20px 40px;
 }
 
-}
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+details {
+
+}
+
+details > summary {
+    padding: 2px 6px;
+    border: none;
+    cursor: pointer;
+}
+
+details > p {
+    border-radius: 10px;
+    background-color: #1C2B32;
+    color: white;
+    padding: 20px 20px;
+    margin: 2px;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+.footer{
+    background-color: #1C2B32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
